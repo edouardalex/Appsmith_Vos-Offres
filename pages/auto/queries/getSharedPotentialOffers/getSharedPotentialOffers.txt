@@ -1,0 +1,37 @@
+query getSharedPotentialOffers ($offerRunId: String!) {
+	getSharedPotentialOffers (offerRunId: $offerRunId){
+		id
+		runId
+		procedureId
+		recurrentSubscriptionId
+		userId
+		state
+		#specialState
+		partner
+		name
+		price
+		savings
+		userFirstName
+		userPhoneNumber
+		informationPaperUrl
+		options {
+			category {
+				icon
+				text
+				textColor
+				collapsable
+				backgroundColor
+			}
+			options {
+				type
+				unit
+				title
+				label
+				value
+				responses
+				description
+				customizable
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_0a3f9565-04c6-403a-b654-e882e0347347",
+  "id": "health_SharedOffers",
+  "unpublishedCollection": {
+    "name": "SharedOffers",
+    "pageId": "health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "offersData",
+        "value": "{}"
+      },
+      {
+        "name": "featuredOffers",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOffer",
+        "value": "null"
+      },
+      {
+        "name": "selectedOfferIds",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOfferCustomOptions",
+        "value": "null"
+      }
+    ]
+  }
+}

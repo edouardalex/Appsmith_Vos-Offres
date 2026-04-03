@@ -1,0 +1,7 @@
+mutation moveProcedureToOfferValidation(
+	$procedureId: String!
+) {
+	moveProcedureToOfferValidation(
+		procedureId: $procedureId
+	)
+}

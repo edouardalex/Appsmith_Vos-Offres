@@ -1,0 +1,13 @@
+mutation setPotentialOfferAsChosen(
+	$customOptions: String
+	$procedureId: String!
+	$offerRunId: String!
+	$offerId: String!
+) {
+	setPotentialOfferAsChosen(
+		offerId: $offerId, 
+		offerRunId: $offerRunId,
+		procedureId: $procedureId,
+		customOptions: $customOptions,
+	)
+}

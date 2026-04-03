@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_fa6df072-1a81-4ddb-817b-e96f4ca5d06c",
+  "id": "health_ModalMoreInformation",
+  "unpublishedCollection": {
+    "name": "ModalMoreInformation",
+    "pageId": "health",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "clicked_description_title",
+        "value": "{}"
+      }
+    ]
+  }
+}

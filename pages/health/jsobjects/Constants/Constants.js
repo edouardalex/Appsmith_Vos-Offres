@@ -1,0 +1,86 @@
+export default {
+	colors: {
+		font: "#596d7b",
+		success: "#5CBF86",
+		failure: "#E6007E",
+	},
+	colorMap: {
+		axa: "#0003B5",
+		malj: "#DEDEDE",
+		april: "#39393A",
+		acheel: "#000000",
+		novelia: "#CFCFCF",
+		generali: "#C5281C",
+		ami_trois_f: "#FFFFFE",
+		swisslife: '#DDFEF0',
+    neoliane:	'#91E2D8',
+		repam_assurances:	'#FA9819'
+	},
+	partnerName: {
+		axa: 'Axa',
+		malj: 'MALJ',
+		april: 'April',
+		acheel: 'Acheel',
+		novelia: 'Novélia',
+		generali: 'Générali',
+		ami_trois_f: 'AMI3F',
+		henner: 'Henner',
+		swisslife: 'SwissLife',
+		neoliane: 'Néoliane',
+		repam_assurances: 'Repam',
+		apicil: 'Apicil'
+	},
+	specialStateToText: {
+		"BEST_QUALITY_PRICE" : "⭐ Le meilleur rapport qualité / prix",
+		"BEST_OPTIONS": "☂️ Les meilleures garanties",
+		"BEST_PRICE": "💸 Le moins cher"
+	},
+	offerOptionsIcons : {
+  "hospitalization_protection2": "🏨",
+  "routine_care_protection": "🩺",
+  "dental_aid_protection2": "🦷",
+  "optical_aid_protection2": "👓",
+  "hearing_aid_protection2": "🦻",
+	"alternative_medecine_protection": "🌿"	
+  },
+	featuredOffersShownOptions: ["hospitalization_protection2", "routine_care_protection", "dental_aid_protection2",  "optical_aid_protection2", "alternative_medecine_protection", "hearing_aid_protection2"],
+	allOffersShownOptions: ["hospitalization_protection2", "routine_care_protection", "dental_aid_protection2",  "optical_aid_protection2",  "hearing_aid_protection2", "alternative_medecine_protection"],
+	endpoints: {
+		prince: "https://a3n6vihuf3.execute-api.eu-west-1.amazonaws.com/prince/",
+		staging: "https://n5j6f33icg.execute-api.eu-west-1.amazonaws.com/staging/",
+		production: "https://gget4w2hb3.execute-api.eu-west-1.amazonaws.com/production/",
+		julien: "https://7uaaqqehna.execute-api.eu-west-1.amazonaws.com/julien/",
+		leo: "https://5bfovg0zm4.execute-api.eu-west-1.amazonaws.com/leo/",
+	  ghassen: "https://1bmkcgc4t2.execute-api.eu-west-1.amazonaws.com/ghassen/"
+	},
+	category_name_to_key: {
+		"Niveau de garantie": "key",
+		"Protection du logement": "house",
+		"Protection des personnes": "familly"
+	},
+	env: this.endpoints[appsmith.URL.queryParams.stage ?? "ghassen"],
+	icons: {
+		tickNoSVG: {
+			xmlns: "http://www.w3.org/2000/svg",
+			width: 16,
+			height: 16,
+			viewBox: "0 0 668 668",
+			fill: "none",
+			path: {
+				d: "M334.001 0.666504C268.074 0.666504 203.628 20.2162 148.811 56.8433C93.995 93.4704 51.2708 145.53 26.0416 206.439C0.812397 267.347 -5.78871 334.37 7.07303 399.03C19.9348 463.69 51.6817 523.085 98.2992 569.702C144.917 616.32 204.311 648.067 268.971 660.928C333.632 673.79 400.654 667.189 461.563 641.96C522.471 616.731 574.531 574.006 611.158 519.19C647.785 464.373 667.335 399.927 667.335 334C667.335 290.226 658.713 246.881 641.961 206.439C625.21 165.997 600.657 129.25 569.704 98.2976C538.751 67.3447 502.004 42.7916 461.563 26.04C421.121 9.28843 377.775 0.666504 334.001 0.666504ZM457.568 410.433C460.752 413.508 463.291 417.186 465.038 421.253C466.785 425.32 467.705 429.694 467.743 434.12C467.782 438.546 466.938 442.935 465.262 447.032C463.586 451.128 461.111 454.85 457.981 457.98C454.852 461.109 451.13 463.584 447.033 465.261C442.937 466.937 438.547 467.78 434.121 467.742C429.695 467.703 425.321 466.784 421.255 465.037C417.188 463.29 413.51 460.75 410.435 457.566L334.001 381.133L257.568 457.566C251.281 463.638 242.861 466.998 234.121 466.922C225.382 466.846 217.021 463.341 210.841 457.16C204.661 450.98 201.155 442.62 201.079 433.88C201.003 425.14 204.363 416.72 210.435 410.433L286.868 334L210.435 257.566C204.363 251.28 201.003 242.86 201.079 234.12C201.155 225.38 204.661 217.019 210.841 210.839C217.021 204.659 225.382 201.153 234.121 201.077C242.861 201.001 251.281 204.361 257.568 210.433L334.001 286.867L410.435 210.433C416.722 204.361 425.142 201.001 433.881 201.077C442.621 201.153 450.982 204.659 457.162 210.839C463.342 217.019 466.848 225.38 466.924 234.12C467 242.86 463.64 251.28 457.568 257.566L381.135 334L457.568 410.433Z",
+				fill: "#A92923"
+			}
+		},
+		tickYesSVG: {
+			xmlns: "http://www.w3.org/2000/svg",
+			width: 20,
+			height: 20,
+			viewBox: "0 0 667 667",
+			fill: "none",
+			path: {
+				d: "M333.333 0C267.406 0 202.96 19.5497 148.143 56.1768C93.327 92.8039 50.6028 144.863 25.3736 205.772C0.144428 266.681 -6.45668 333.703 6.40506 398.363C19.2668 463.024 51.0137 522.418 97.6312 569.036C144.249 615.653 203.643 647.4 268.303 660.262C332.964 673.124 399.986 666.522 460.895 641.293C521.803 616.064 573.863 573.34 610.49 518.523C647.117 463.707 666.667 399.26 666.667 333.333C666.667 289.559 658.045 246.214 641.293 205.772C624.542 165.33 599.989 128.584 569.036 97.6311C538.083 66.6782 501.336 42.1251 460.895 25.3735C420.453 8.62192 377.107 0 333.333 0ZM522.534 274.567L322.533 457.9C316.201 463.706 307.872 466.843 299.283 466.657C290.693 466.471 282.508 462.975 276.434 456.9L176.433 356.9C173.25 353.825 170.71 350.147 168.963 346.08C167.216 342.013 166.297 337.639 166.258 333.213C166.22 328.787 167.063 324.398 168.739 320.302C170.415 316.205 172.891 312.483 176.02 309.353C179.15 306.224 182.872 303.749 186.968 302.073C191.065 300.397 195.454 299.553 199.88 299.592C204.306 299.63 208.68 300.55 212.747 302.297C216.814 304.044 220.492 306.583 223.567 309.767L301 387.2L477.467 225.433C483.982 219.457 492.605 216.314 501.438 216.695C510.271 217.077 518.591 220.951 524.567 227.467C530.543 233.982 533.686 242.605 533.305 251.438C532.924 260.271 529.049 268.59 522.534 274.567Z",
+				fill: "#5CBF86"
+			}
+		}
+	},
+}

@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_68be92d9-30ea-4d23-9ca0-3943e2f03683",
+  "id": "assurance habitation_SharedOffers",
+  "unpublishedCollection": {
+    "name": "SharedOffers",
+    "pageId": "assurance habitation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "timeoutId",
+        "value": "null"
+      },
+      {
+        "name": "intervalId",
+        "value": "null"
+      },
+      {
+        "name": "offersData",
+        "value": "{}"
+      },
+      {
+        "name": "featuredOffers",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOffer",
+        "value": "null"
+      },
+      {
+        "name": "selectedOfferIds",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOfferCustomOptions",
+        "value": "null"
+      }
+    ]
+  }
+}

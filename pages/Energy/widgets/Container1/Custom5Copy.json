@@ -1,0 +1,66 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultModel": "{{ {\n\tsubcategory: appsmith.URL.queryParams.subcategory\n} }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "6fstnkuykc",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 12,
+  "originalTopRow": 7,
+  "parentColumnSpace": 19.90625,
+  "parentId": "fu5yskkh99",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "srcDoc": {
+    "css": ".title-container {\n  position: relative;\n  text-align: center;\n  margin-top: -5px;\n}\n\n.line-container {\n  position: relative;\n  display: inline-block;\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\n\n.background-bar {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 10%);\n  width: 100%;\n  height: 1em;\n  background-color: #E1F9B7;\n  z-index: 0;\n  border-radius: 4px;\n}\n\n.styled-title {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 28px;\n  font-weight: bold;\n  color: #2C3034;\n  position: relative;\n  z-index: 1;\n  margin: 0;\n}",
+    "html": "<body style=\"overflow: hidden;\">\n\t<div class=\"title-container\">\n    <div class=\"line-container\">\n        <div class=\"background-bar\"></div>\n        <h1 class=\"styled-title\">pour votre contrat d'Énergie ⚡</h1>\n    </div>\n</div>\n</body>",
+    "js": "const SUBCATEGORY_MAP = {\n  gaz: \"Gaz\",\n  electricite: \"Électricité\",\n  electricite_et_gaz: \"Électricité et gaz\"\n};\nfunction renderPage() {\n  const title = document.querySelector(\".styled-title\");\n  title.textContent = `pour votre contrat ${SUBCATEGORY_MAP[appsmith.model.subcategory]}`;\n}\nappsmith.onReady(() => {\n  if (Object.keys(appsmith.model).length > 0) {\n    renderPage();\n  }\n});\nappsmith.onModelChange(newModel => {\n  if (Object.keys(newModel).length > 0) {\n    renderPage();\n  }\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 7,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".title-container {\n    position: relative;\n    text-align: center;\n\t  margin-top:-5px\n}\n\n.line-container {\n    position: relative;\n    display: inline-block;\n\t\tmargin-top: 10px;\n    margin-bottom: 10px;\n}\n\n.background-bar {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, +10%);\n    width: 100%;\n    height: 1em;\n    background-color: #E1F9B7;\n    z-index: 0;\n    border-radius: 4px;\n}\n\n.styled-title {\n    font-family: 'Poppins', sans-serif;\n    font-size: 28px;\n    font-weight: bold;\n    color: #2C3034;\n    position: relative;\n    z-index: 1;\n    margin: 0;\n}\n",
+    "html": "<body style=\"overflow: hidden;\">\n\t<div class=\"title-container\">\n    <div class=\"line-container\">\n        <div class=\"background-bar\"></div>\n        <h1 class=\"styled-title\">pour votre contrat d'Énergie ⚡</h1>\n    </div>\n</div>\n</body>",
+    "js": "const SUBCATEGORY_MAP = {\n\tgaz: \"Gaz\",\n\telectricite: \"Électricité\",\n\telectricite_et_gaz: \"Électricité et gaz\",\n};\n\nfunction renderPage() {\n\tconst title = document.querySelector(\".styled-title\");\n\ttitle.textContent = `pour votre contrat ${SUBCATEGORY_MAP[appsmith.model.subcategory]}`;\n}\n\nappsmith.onReady(() => {\n  if (Object.keys(appsmith.model).length > 0) {\n    renderPage();\n  }\n});\n\nappsmith.onModelChange((newModel) => {\n  if (Object.keys(newModel).length > 0) {\n    renderPage();\n  }\n});"
+  },
+  "version": 1,
+  "widgetId": "69h44p95rc",
+  "widgetName": "Custom5Copy"
+}

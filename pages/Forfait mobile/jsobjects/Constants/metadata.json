@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_bd2fa392-2ece-4c99-941f-93755900a031",
+  "id": "Forfait mobile_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Forfait mobile",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "colors",
+        "value": "{\n  font: \"#596d7b\",\n  success: \"#5CBF86\",\n  failure: \"#E6007E\"\n}"
+      },
+      {
+        "name": "operatorsToHideMap",
+        "value": "{\n  \"sfr\": [\"sfr\", \"red_by_sfr\"],\n  \"red_by_sfr\": [\"sfr\", \"red_by_sfr\"],\n  \"sosh\": [\"sosh\", \"orange\"],\n  \"orange\": [\"sosh\", \"orange\"],\n  \"free\": [\"free\"],\n  \"bouygues_telecom\": [\"bouygues_telecom\"]\n}"
+      }
+    ]
+  }
+}

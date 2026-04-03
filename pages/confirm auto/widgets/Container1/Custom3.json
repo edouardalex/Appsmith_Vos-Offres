@@ -1,0 +1,73 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 21,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel": "{{ { firstName: utils.pageData.firstName } }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderColor"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "1k1h0dgr18",
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 11,
+  "parentColumnSpace": 19.90625,
+  "parentId": "ovlg9slin2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "",
+    "html": "<div class=\"intro-section\" style=\"background-color: #EEF6FF; padding: 16px; border-radius: 8px;\">\n    <p style=\"font-family: 'Arial', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 12px;\">\n        👍 Nous avons bien noté votre demande de devis pour ce <strong>contrat auto</strong>. Un membre de notre équipe va prendre rapidement contact avec vous <strong style=\"color: #82DB35;\">afin d'afiner vos garanties et le tarif de l'assurance.</strong> \n</div>",
+    "js": "function initApp() {\n  const nameSpan = document.getElementById(\"firstName\");\n  nameSpan.textContent = appsmith.model.firstName;\n}\nappsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  initApp();\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 11,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "",
+    "html": "<div class=\"intro-section\" style=\"background-color: #EEF6FF; padding: 16px; border-radius: 8px;\">\n    <p style=\"font-family: 'Arial', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 12px;\">\n        👍 Nous avons bien noté votre demande de devis pour ce <strong>contrat auto</strong>. Un membre de notre équipe va prendre rapidement contact avec vous <strong style=\"color: #82DB35;\">afin d'afiner vos garanties et le tarif de l'assurance.</strong> \n</div>",
+    "js": "function initApp() {\n\tconst nameSpan = document.getElementById(\"firstName\");\n\tnameSpan.textContent = appsmith.model.firstName;\n}\n\nappsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tinitApp();\n});"
+  },
+  "version": 1,
+  "widgetId": "g8ps1t0wnh",
+  "widgetName": "Custom3"
+}

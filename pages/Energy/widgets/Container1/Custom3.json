@@ -1,0 +1,70 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "defaultModel": "{{ { firstName: utils.pageData.firstName } }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "borderColor"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "1k1h0dgr18",
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 31,
+  "originalTopRow": 13,
+  "parentColumnSpace": 19.90625,
+  "parentId": "fu5yskkh99",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "",
+    "html": "<body style=\"overflow: hidden;\">\n\t<div class=\"intro-section\" style=\"background-color: #EEF6FF; padding: 20px; border-radius: 8px;\">\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 18px; color: #596D7B; line-height: 1.5; margin-bottom: 24px;\">\n    </p>\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 16px;\">\n        Vous trouverez ici les <strong style=\"color: #82DB35;\">3 meilleures offres reçues de fournisseurs d'énergie</strong>, et les économies associées.\n    </p>\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 16px;\">\nSi vous avez la moindre question, vous pouvez dès maintenant contacter nos équipes !\n    </p>\n</div>\n\t</body>",
+    "js": "function initApp() {\n  const nameSpan = document.getElementById(\"firstName\");\n  nameSpan.textContent = appsmith.model.firstName;\n}\nappsmith.onModelChange(() => {\n  if (appsmith.model.firstName) {\n    initApp();\n  }\n});\nappsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  initApp();\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 13,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "",
+    "html": "<body style=\"overflow: hidden;\">\n\t<div class=\"intro-section\" style=\"background-color: #EEF6FF; padding: 20px; border-radius: 8px;\">\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 18px; color: #596D7B; line-height: 1.5; margin-bottom: 24px;\">\n    </p>\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 16px;\">\n        Vous trouverez ici les <strong style=\"color: #82DB35;\">3 meilleures offres reçues de fournisseurs d'énergie</strong>, et les économies associées.\n    </p>\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 16px;\">\nSi vous avez la moindre question, vous pouvez dès maintenant contacter nos équipes !\n    </p>\n</div>\n\t</body>",
+    "js": "function initApp() {\n\tconst nameSpan = document.getElementById(\"firstName\");\n\tnameSpan.textContent = appsmith.model.firstName;\n}\n\nappsmith.onModelChange(() => {\n\tif (appsmith.model.firstName) {\n\t\tinitApp();\n\t}\n})\n\nappsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tinitApp();\n});"
+  },
+  "version": 1,
+  "widgetId": "veb5wrurnm",
+  "widgetName": "Custom3"
+}

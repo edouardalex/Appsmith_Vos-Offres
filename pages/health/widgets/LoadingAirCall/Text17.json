@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2akzmoruex",
+  "leftColumn": 4,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 24,
+  "originalTopRow": 9,
+  "overflow": "NONE",
+  "parentColumnSpace": 10.71875,
+  "parentId": "arj0k22pxc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "Un membre de notre <span style='color: #82DB35'> équipe </span> va prendre le relais pour vous conseiller et <span style='color: #82DB35'> répondre à vos questions</span>.\n\n\nNos équipes sont là du <span style='color: #82DB35'> lundi au vendredi, de 9 h à 18 h 30</span>. Si vous êtes en dehors de ces horaires, laissez-nous un message : on vous rappellera dès que possible.",
+  "textAlign": "CENTER",
+  "textColor": "#858282",
+  "topRow": 9,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "cb2wcvrwgx",
+  "widgetName": "Text17"
+}

@@ -1,0 +1,46 @@
+{
+  "animateLoading": true,
+  "borderRadius": "800rem",
+  "bottomRow": 7,
+  "boxShadow": "0 0 15px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.05)",
+  "buttonColor": "#596d7b",
+  "buttonVariant": "SECONDARY",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "arrow-left",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "y762nduhui",
+  "leftColumn": 1,
+  "minWidth": 50,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "onClick": "{{closeModal(Modal_more_information.name);}}",
+  "parentColumnSpace": 15.9375,
+  "parentId": "o01jrvcf0i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 5,
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "4by5p1xm3g",
+  "widgetName": "IconButton2"
+}

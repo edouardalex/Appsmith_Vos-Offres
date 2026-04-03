@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_97c684d2-394a-46b3-ab4f-a2ad0bd7f1e1",
+  "id": "Forfait mobile_Offers",
+  "unpublishedCollection": {
+    "name": "Offers",
+    "pageId": "Forfait mobile",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "offers",
+        "value": "[]"
+      },
+      {
+        "name": "pricePayed",
+        "value": "0"
+      },
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "selectedPlan",
+        "value": "null"
+      }
+    ]
+  }
+}

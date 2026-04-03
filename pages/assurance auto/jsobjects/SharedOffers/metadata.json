@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_1914e887-55ef-4ee7-bbe2-21b8ab73ced1",
+  "id": "assurance auto_SharedOffers",
+  "unpublishedCollection": {
+    "name": "SharedOffers",
+    "pageId": "assurance auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "timeoutId",
+        "value": "null"
+      },
+      {
+        "name": "intervalId",
+        "value": "null"
+      },
+      {
+        "name": "offersData",
+        "value": "{}"
+      },
+      {
+        "name": "featuredOffers",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOffer",
+        "value": "null"
+      },
+      {
+        "name": "selectedOfferIds",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOfferCustomOptions",
+        "value": "null"
+      }
+    ]
+  }
+}

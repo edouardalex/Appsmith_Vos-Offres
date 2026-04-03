@@ -1,0 +1,64 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "defaultModel": "{}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "1k1h0dgr18",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 128,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 98,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 59,
+  "originalTopRow": 33,
+  "parentColumnSpace": 19.90625,
+  "parentId": "3bp7r3bdwf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "@charset \"UTF-8\";\n.section-container {\n  height: 100%;\n  padding: 20px 10px 10px;\n}\n\n.title-container {\n  position: relative;\n  text-align: left;\n  margin-bottom: 12px;\n}\n\n.line-container {\n  position: relative;\n  display: inline-block;\n}\n\n.background-bar {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 10%);\n  width: 100%;\n  height: 0.8em;\n  background-color: #E1F9B7;\n  z-index: 0;\n  border-radius: 4px;\n}\n\n.styled-title {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 22px;\n  font-weight: bold;\n  color: #2C3034;\n  position: relative;\n  z-index: 1;\n  margin: 0;\n}\n\n.section-description {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 16px;\n  color: #596D7B;\n  text-align: left;\n  margin-bottom: 40px;\n}\n\n.advantages-container {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  gap: 20px;\n}\n\n@media (max-width: 768px) {\n  .advantages-container {\n    flex-direction: column;\n  }\n}\n/* BOXES */\n.advantage-box {\n  flex: 1;\n  border: 1px solid #E6E9F2;\n  border-radius: 8px;\n  padding: 20px;\n  text-align: left;\n  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);\n  background-color: #FFFFFF;\n  position: relative;\n  transition: background-color 0.5s ease;\n}\n\n.advantage-box:hover {\n  background-color: #F5FFF4;\n}\n\n/* Étape 1 : vert clair */\n.advantage-box-green {\n  background-color: #ECFCE5;\n  border: 1px solid #ECFCE5;\n}\n\n/* Étape 2 : le style initial (par exemple bordure bleue) */\n.advantage-box-blue {\n  border: 2px solid #2E6EE5;\n}\n\n/* Étape 3 : bordure grise classique */\n.advantage-box-grey {\n  /* Valeurs par défaut */\n  /* border: 1px solid #E6E9F2; */\n}\n\n/* TITRES D'ÉTAPE */\n.step-title {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 16px;\n  font-weight: bold;\n  color: #2C3034;\n  margin-bottom: 4px;\n}\n\n.step-subtitle {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 18px;\n  font-weight: bold;\n  color: #2C3034;\n  margin: 0 0 16px 0;\n}\n\n/* On crée une classe supplémentaire pour colorer uniquement\n   le texte \"Étape 2\" et \"Étape 3\" en bleu */\n.step-title-blue {\n  color: #2E6EE5;\n}\n\n/* TEXTE */\n.advantage-text {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 16px;\n  color: #596D7B;\n}\n\n.icon-container {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  width: 24px;\n  height: 24px;\n}",
+    "html": "<div class=\"section-container\">\n  <!-- Titre principal -->\n  <div class=\"title-container\">\n    <div class=\"line-container\">\n      <div class=\"background-bar\"></div>\n      <h1 class=\"styled-title\">Les prochaines étapes</h1>\n    </div>\n  </div>\n\n  <!-- Sous-titre / description -->\n  <p class=\"section-description\">\n    Le changement de votre compteur d'énergie est presque terminé 👍\n  </p>\n\n  <!-- Conteneur principal des « étapes » -->\n  <div class=\"advantages-container\">\n\n    <!-- Étape 1 -->\n    <div class=\"advantage-box advantage-box-green\">\n      <h2 class=\"step-title\">Étape 1 :</h2>\n      <p class=\"step-subtitle\">Valider l'offre d'énergie</p>\n      <!-- Icône check -->\n      <div class=\"icon-container\">\n        <svg\n          width=\"24\"\n          height=\"24\"\n          viewBox=\"0 0 24 24\"\n          fill=\"none\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n        >\n          <!-- Cercle + coche blanche -->\n          <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#82DB35\" />\n          <path\n            d=\"M8 12.5L11 15.5L16 10\"\n            stroke=\"#FFFFFF\"\n            stroke-width=\"2\"\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n          />\n        </svg>\n      </div>\n      <p class=\"advantage-text\">\n        Choisissez l'offre d'énergie qui correspond le plus à vos besoins.\n      </p>\n    </div>\n\n    <!-- Étape 2 -->\n    <div class=\"advantage-box advantage-box-blue\">\n      <!-- ICI on ajoute step-title-blue pour la couleur -->\n      <h2 class=\"step-title step-title-blue\">Étape 2 :</h2>\n      <p class=\"step-subtitle\">Finalisez votre contrat</p>\n      <p class=\"advantage-text\">\n        Un conseiller Ideel vous contactera pour ajuster les options de votre contrat et votre tarif final.\n      </p>\n    </div>\n\n    <!-- Étape 3 -->\n    <div class=\"advantage-box advantage-box-grey\">\n      <!-- ICI on ajoute aussi step-title-blue -->\n      <h2 class=\"step-title step-title-blue\">Étape 3 :</h2>\n      <p class=\"step-subtitle\">Ideel gère la mise en place du contrat</p>\n      <p class=\"advantage-text\">\n        Nous gérons la résiliation de votre ancien contrat pendant que vous nous envoyez les documents.\n      </p>\n    </div>\n\n  </div>\n</div>\n",
+    "js": ""
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 33,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".section-container {\n  height: 100%;\n  padding: 20px 10px 10px;\n}\n\n.title-container {\n  position: relative;\n  text-align: left;\n  margin-bottom: 12px;\n}\n\n.line-container {\n  position: relative;\n  display: inline-block;\n}\n\n.background-bar {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 10%);\n  width: 100%;\n  height: 0.8em;\n  background-color: #E1F9B7;\n  z-index: 0;\n  border-radius: 4px;\n}\n\n.styled-title {\n  font-family: 'Poppins', sans-serif;\n  font-size: 22px;\n  font-weight: bold;\n  color: #2C3034;\n  position: relative;\n  z-index: 1;\n  margin: 0;\n}\n\n.section-description {\n  font-family: 'Poppins', sans-serif;\n  font-size: 16px;\n  color: #596D7B;\n  text-align: left;\n  margin-bottom: 40px;\n}\n\n.advantages-container {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  gap: 20px;\n}\n\n@media (max-width: 768px) {\n  .advantages-container {\n    flex-direction: column;\n  }\n}\n\n/* BOXES */\n.advantage-box {\n  flex: 1;\n  border: 1px solid #E6E9F2;\n  border-radius: 8px;\n  padding: 20px;\n  text-align: left;\n  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);\n  background-color: #FFFFFF;\n  position: relative;\n  transition: background-color 0.5s ease;\n}\n\n.advantage-box:hover {\n  background-color: #F5FFF4;\n}\n\n/* Étape 1 : vert clair */\n.advantage-box-green {\n  background-color: #ECFCE5; \n  border: 1px solid #ECFCE5;\n}\n\n/* Étape 2 : le style initial (par exemple bordure bleue) */\n.advantage-box-blue {\n  border: 2px solid #2E6EE5; \n}\n\n/* Étape 3 : bordure grise classique */\n.advantage-box-grey {\n  /* Valeurs par défaut */\n  /* border: 1px solid #E6E9F2; */\n}\n\n/* TITRES D'ÉTAPE */\n.step-title {\n  font-family: 'Poppins', sans-serif;\n  font-size: 16px;\n  font-weight: bold;\n  color: #2C3034;\n  margin-bottom: 4px;\n}\n\n.step-subtitle {\n  font-family: 'Poppins', sans-serif;\n  font-size: 18px;\n  font-weight: bold;\n  color: #2C3034;\n  margin: 0 0 16px 0;\n}\n\n/* On crée une classe supplémentaire pour colorer uniquement\n   le texte \"Étape 2\" et \"Étape 3\" en bleu */\n.step-title-blue {\n  color: #2E6EE5;\n}\n\n/* TEXTE */\n.advantage-text {\n  font-family: 'Poppins', sans-serif;\n  font-size: 16px;\n  color: #596D7B;\n}\n\n.icon-container {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  width: 24px;\n  height: 24px;\n}\n",
+    "html": "<div class=\"section-container\">\n  <!-- Titre principal -->\n  <div class=\"title-container\">\n    <div class=\"line-container\">\n      <div class=\"background-bar\"></div>\n      <h1 class=\"styled-title\">Les prochaines étapes</h1>\n    </div>\n  </div>\n\n  <!-- Sous-titre / description -->\n  <p class=\"section-description\">\n    Le changement de votre compteur d'énergie est presque terminé 👍\n  </p>\n\n  <!-- Conteneur principal des « étapes » -->\n  <div class=\"advantages-container\">\n\n    <!-- Étape 1 -->\n    <div class=\"advantage-box advantage-box-green\">\n      <h2 class=\"step-title\">Étape 1 :</h2>\n      <p class=\"step-subtitle\">Valider l'offre d'énergie</p>\n      <!-- Icône check -->\n      <div class=\"icon-container\">\n        <svg\n          width=\"24\"\n          height=\"24\"\n          viewBox=\"0 0 24 24\"\n          fill=\"none\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n        >\n          <!-- Cercle + coche blanche -->\n          <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#82DB35\" />\n          <path\n            d=\"M8 12.5L11 15.5L16 10\"\n            stroke=\"#FFFFFF\"\n            stroke-width=\"2\"\n            stroke-linecap=\"round\"\n            stroke-linejoin=\"round\"\n          />\n        </svg>\n      </div>\n      <p class=\"advantage-text\">\n        Choisissez l'offre d'énergie qui correspond le plus à vos besoins.\n      </p>\n    </div>\n\n    <!-- Étape 2 -->\n    <div class=\"advantage-box advantage-box-blue\">\n      <!-- ICI on ajoute step-title-blue pour la couleur -->\n      <h2 class=\"step-title step-title-blue\">Étape 2 :</h2>\n      <p class=\"step-subtitle\">Finalisez votre contrat</p>\n      <p class=\"advantage-text\">\n        Un conseiller Ideel vous contactera pour ajuster les options de votre contrat et votre tarif final.\n      </p>\n    </div>\n\n    <!-- Étape 3 -->\n    <div class=\"advantage-box advantage-box-grey\">\n      <!-- ICI on ajoute aussi step-title-blue -->\n      <h2 class=\"step-title step-title-blue\">Étape 3 :</h2>\n      <p class=\"step-subtitle\">Ideel gère la mise en place du contrat</p>\n      <p class=\"advantage-text\">\n        Nous gérons la résiliation de votre ancien contrat pendant que vous nous envoyez les documents.\n      </p>\n    </div>\n\n  </div>\n</div>\n",
+    "js": ""
+  },
+  "version": 1,
+  "widgetId": "h9ikpiuyg0",
+  "widgetName": "Custom2CopyCopy"
+}

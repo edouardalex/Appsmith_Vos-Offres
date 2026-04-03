@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_550a12dd-1e12-4402-beb3-59e9da910d08",
+  "id": "assurance habitation_ModalMoreInformation",
+  "unpublishedCollection": {
+    "name": "ModalMoreInformation",
+    "pageId": "assurance habitation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "clicked_description_title",
+        "value": "{}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultModel": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "events": [],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "6fstnkuykc",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 6,
+  "originalTopRow": 0,
+  "parentColumnSpace": 19.90625,
+  "parentId": "l77vb1a4m5",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "@import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\");\n.title-container {\n  text-align: center;\n}\n\n.line-container {\n  position: relative;\n  display: inline-block;\n}\n\n.background-bar {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 10%);\n  width: 100%;\n  height: 1em;\n  background-color: #E1F9B7;\n  z-index: 0;\n  border-radius: 4px;\n}\n\n.styled-title {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 28px;\n  font-weight: bold;\n  color: #2C3034;\n  position: relative;\n  z-index: 1;\n  margin: 0;\n}",
+    "html": "<div class=\"title-container\">\n\t<div class=\"line-container\">\n\t\t<div class=\"background-bar\"></div>\n\t\t<h1 id=\"title\" class=\"styled-title\">Vos devis d'Assurance Auto 🚗</h1>\n\t</div>\n</div>",
+    "js": ""
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 0,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n.title-container {\n    text-align: center;\n}\n\n.line-container {\n    position: relative;\n    display: inline-block;\n}\n\n.background-bar {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, +10%);\n    width: 100%;\n    height: 1em;\n    background-color: #E1F9B7;\n    z-index: 0;\n    border-radius: 4px;\n}\n\n.styled-title {\n    font-family: 'Poppins', sans-serif;\n    font-size: 28px;\n    font-weight: bold;\n    color: #2C3034;\n    position: relative;\n    z-index: 1;\n    margin: 0;\n}",
+    "html": "<div class=\"title-container\">\n\t<div class=\"line-container\">\n\t\t<div class=\"background-bar\"></div>\n\t\t<h1 id=\"title\" class=\"styled-title\">Vos devis d'Assurance Auto 🚗</h1>\n\t</div>\n</div>",
+    "js": ""
+  },
+  "version": 1,
+  "widgetId": "n4is8ikknq",
+  "widgetName": "TitleCustomWidget"
+}

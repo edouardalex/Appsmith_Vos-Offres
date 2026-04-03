@@ -1,0 +1,63 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "6fstnkuykc",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 26,
+  "originalTopRow": 19,
+  "parentColumnSpace": 19.90625,
+  "parentId": "3bp7r3bdwf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "srcDoc": {
+    "css": ".title-container {\n  position: relative;\n  text-align: center;\n  margin-top: 20px;\n}\n\n.line-container {\n  position: relative;\n  display: inline-block;\n  margin-bottom: 10px;\n}\n\n.background-bar {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 10%);\n  width: 100%;\n  height: 1em;\n  background-color: #E1F9B7;\n  z-index: 0;\n  border-radius: 4px;\n}\n\n.styled-title {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 28px;\n  font-weight: bold;\n  color: #2C3034;\n  position: relative;\n  z-index: 1;\n  margin: 0;\n}",
+    "html": "<div class=\"title-container\">\n    <div class=\"line-container\">\n        <div class=\"background-bar\"></div>\n        <h1 class=\"styled-title\">C'est bien noté !</h1>\n    </div>\n</div>\n",
+    "js": ""
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 0,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".title-container {\n    position: relative;\n    text-align: center;\n\t  margin-top:20px\n}\n\n.line-container {\n    position: relative;\n    display: inline-block;\n    margin-bottom: 10px;\n}\n\n.background-bar {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, +10%);\n    width: 100%;\n    height: 1em;\n    background-color: #E1F9B7;\n    z-index: 0;\n    border-radius: 4px;\n}\n\n.styled-title {\n    font-family: 'Poppins', sans-serif;\n    font-size: 28px;\n    font-weight: bold;\n    color: #2C3034;\n    position: relative;\n    z-index: 1;\n    margin: 0;\n}\n",
+    "html": "<div class=\"title-container\">\n    <div class=\"line-container\">\n        <div class=\"background-bar\"></div>\n        <h1 class=\"styled-title\">C'est bien noté !</h1>\n    </div>\n</div>\n",
+    "js": ""
+  },
+  "version": 1,
+  "widgetId": "rn4goelhp8",
+  "widgetName": "Custom5"
+}

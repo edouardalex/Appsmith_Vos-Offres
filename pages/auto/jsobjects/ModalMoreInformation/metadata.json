@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_77a91642-4167-48a6-926e-c6dbca3d7592",
+  "id": "auto_ModalMoreInformation",
+  "unpublishedCollection": {
+    "name": "ModalMoreInformation",
+    "pageId": "auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "clicked_description_title",
+        "value": "{}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_a79512b0-9cc6-4aea-ae34-81e43a51597b",
+  "id": "habitation_ModalMoreInformation",
+  "unpublishedCollection": {
+    "name": "ModalMoreInformation",
+    "pageId": "habitation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "clicked_description_title",
+        "value": "{}"
+      }
+    ]
+  }
+}

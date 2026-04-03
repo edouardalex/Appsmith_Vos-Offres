@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_0abca533-9832-48f7-a248-2af6a42bae68",
+  "id": "habitation_SharedOffers",
+  "unpublishedCollection": {
+    "name": "SharedOffers",
+    "pageId": "habitation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "offersData",
+        "value": "{}"
+      },
+      {
+        "name": "featuredOffers",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOffer",
+        "value": "null"
+      },
+      {
+        "name": "selectedOfferIds",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOfferCustomOptions",
+        "value": "null"
+      }
+    ]
+  }
+}

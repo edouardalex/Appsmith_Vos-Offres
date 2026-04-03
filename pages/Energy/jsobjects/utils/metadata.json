@@ -1,0 +1,68 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_02d6de08-5ac2-4b48-a0c3-dcc6b46952ff",
+  "id": "Energy_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Energy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "mode",
+        "value": "appsmith.URL.queryParams.mode"
+      },
+      {
+        "name": "subcategoy",
+        "value": "appsmith.URL.queryParams.subcategory"
+      },
+      {
+        "name": "partnerLabel",
+        "value": "appsmith.URL.queryParams.partnerLabel"
+      },
+      {
+        "name": "colorMap",
+        "value": "{\n  vattenfall: \"#AAE3FF\",\n  alpiq_energie: \"#000000\",\n  elmy_energie: \"#00FB8A\",\n  ohm_energie: \"#00FB8A\"\n}"
+      },
+      {
+        "name": "pageData",
+        "value": "{}"
+      },
+      {
+        "name": "nameMap",
+        "value": "{\n  vattenfall: \"Vattenfall\",\n  alpiq_energie: \"Alpiq\",\n  elmy_energie: \"Elmy\",\n  ohm_energie: \"OHM\"\n}"
+      },
+      {
+        "name": "electricityPartners",
+        "value": "[\"vattenfall\", \"alpiq_energie\", \"ohm_energie\"]"
+      },
+      {
+        "name": "gazPartners",
+        "value": "[\"vattenfall\", \"ohm_energie\"]"
+      },
+      {
+        "name": "defaultKva",
+        "value": "6"
+      },
+      {
+        "name": "p",
+        "value": "\"?partnerLabel=edf&annualPrice=12000&subcategory=electricite&mode=base&procedureId=hhhhh&email=aymen@ideel.io\""
+      },
+      {
+        "name": "dataToSend",
+        "value": "{}"
+      },
+      {
+        "name": "currentSelectedPartner",
+        "value": "\"\""
+      },
+      {
+        "name": "endpoints",
+        "value": "{\n  prince: \"https://a3n6vihuf3.execute-api.eu-west-1.amazonaws.com/prince/\",\n  staging: \"https://n5j6f33icg.execute-api.eu-west-1.amazonaws.com/staging/\",\n  production: \"https://gget4w2hb3.execute-api.eu-west-1.amazonaws.com/production/\"\n}"
+      },
+      {
+        "name": "env",
+        "value": "utils.endpoints[appsmith.URL.queryParams.stage ?? \"staging\"]"
+      }
+    ]
+  }
+}

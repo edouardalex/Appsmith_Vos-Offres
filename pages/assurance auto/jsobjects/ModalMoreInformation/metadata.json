@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_4b39be77-0712-4391-9cf4-12ada05ef2b6",
+  "id": "assurance auto_ModalMoreInformation",
+  "unpublishedCollection": {
+    "name": "ModalMoreInformation",
+    "pageId": "assurance auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "clicked_description_title",
+        "value": "{}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 29,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel": "{{ { firstName: utils.pageData.firstName } }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderColor"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "1k1h0dgr18",
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 29,
+  "originalTopRow": 11,
+  "parentColumnSpace": 19.90625,
+  "parentId": "3bp7r3bdwf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "",
+    "html": "<div class=\"intro-section\" style=\"background-color: #EEF6FF; padding: 16px; border-radius: 8px;\">\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 12px;\">\n        👍 \n\t\t\tNous avons noté votre préférence pour optimiser votre <strong style=\"color: #82DB35;\">compteur d'énergie</strong>. \n\t\t\t<br> \n\t\t\t<br> Le changement de fournisseur est en cours, il ne manque plus que<strong style=\"color: #82DB35;\"> votre RIB pour le renseigner au nouveau fournisseur.</strong> \n\t\t\t<br><br> Vous pouvez fermer cette page, un membre de notre équipe vous recontactera  recevrez votre contrat actuel,  <strong style=\"color: #82DB35;\">qui prendra fin dans un mois.</strong> Votre approvisionnement en énergie restera garanti jusque-là.\n</div>",
+    "js": "function initApp() {\n  const nameSpan = document.getElementById(\"firstName\");\n  nameSpan.textContent = appsmith.model.firstName;\n}\nappsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  initApp();\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 11,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "",
+    "html": "<div class=\"intro-section\" style=\"background-color: #EEF6FF; padding: 16px; border-radius: 8px;\">\n    <p style=\"font-family: 'Poppins', sans-serif; font-size: 16px; color: #596D7B; line-height: 1.5; margin-bottom: 12px;\">\n        👍 \n\t\t\tNous avons noté votre préférence pour optimiser votre <strong style=\"color: #82DB35;\">compteur d'énergie</strong>. \n\t\t\t<br> \n\t\t\t<br> Le changement de fournisseur est en cours, il ne manque plus que<strong style=\"color: #82DB35;\"> votre RIB pour le renseigner au nouveau fournisseur.</strong> \n\t\t\t<br><br> Vous pouvez fermer cette page, un membre de notre équipe vous recontactera  recevrez votre contrat actuel,  <strong style=\"color: #82DB35;\">qui prendra fin dans un mois.</strong> Votre approvisionnement en énergie restera garanti jusque-là.\n</div>",
+    "js": "function initApp() {\n\tconst nameSpan = document.getElementById(\"firstName\");\n\tnameSpan.textContent = appsmith.model.firstName;\n}\n\nappsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\tinitApp();\n});"
+  },
+  "version": 1,
+  "widgetId": "wx0t8g4y8x",
+  "widgetName": "Custom3"
+}

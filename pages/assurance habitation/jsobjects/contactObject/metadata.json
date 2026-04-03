@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_56552289-82ef-4373-9bc3-e434ada9b67b",
+  "id": "assurance habitation_contactObject",
+  "unpublishedCollection": {
+    "name": "contactObject",
+    "pageId": "assurance habitation",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "airCallApiToken",
+        "value": "\"b2762e6cba714ab62d12d3d2062619e3\""
+      },
+      {
+        "name": "airCallApiId",
+        "value": "\"f63a4501eaf7134be9742cbc201a141c\""
+      },
+      {
+        "name": "Agent_Mattis",
+        "value": "\"1384120\""
+      },
+      {
+        "name": "Agent_Clement",
+        "value": "\"1391821\""
+      },
+      {
+        "name": "googleCalendar",
+        "value": "\"https://calendly.com/philippe-parreira/nouvelle-reunion\""
+      },
+      {
+        "name": "userPhoneNumber",
+        "value": "phoneNumber.text"
+      },
+      {
+        "name": "agentId",
+        "value": "\"\""
+      }
+    ]
+  }
+}

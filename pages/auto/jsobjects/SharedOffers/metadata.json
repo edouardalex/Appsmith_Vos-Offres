@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_22fc05c0-5347-42b9-a5ec-b239ff4de7a2",
+  "id": "auto_SharedOffers",
+  "unpublishedCollection": {
+    "name": "SharedOffers",
+    "pageId": "auto",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "offersData",
+        "value": "{}"
+      },
+      {
+        "name": "featuredOffers",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOffer",
+        "value": "null"
+      },
+      {
+        "name": "selectedOfferIds",
+        "value": "{}"
+      },
+      {
+        "name": "selectedOfferCustomOptions",
+        "value": "null"
+      }
+    ]
+  }
+}

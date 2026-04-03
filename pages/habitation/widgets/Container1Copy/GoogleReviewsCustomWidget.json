@@ -1,0 +1,61 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "0px",
+  "borderWidth": "1",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "defaultModel": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "6fstnkuykc",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 170,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 140,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 195,
+  "originalTopRow": 166,
+  "parentColumnSpace": 19.90625,
+  "parentId": "l77vb1a4m5",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "",
+    "html": "<!-- Elfsight Google Reviews | Untitled Google Reviews 6 -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-a0b47e7f-9e0b-41ba-851b-9fd8545aa148\" data-elfsight-app-lazy></div>",
+    "js": ""
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 52,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "",
+    "html": "<!-- Elfsight Google Reviews | Untitled Google Reviews 6 -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-a0b47e7f-9e0b-41ba-851b-9fd8545aa148\" data-elfsight-app-lazy></div>",
+    "js": ""
+  },
+  "version": 1,
+  "widgetId": "qa5mjiuabj",
+  "widgetName": "GoogleReviewsCustomWidget"
+}

@@ -1,0 +1,60 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultModel": "{{SharedOffers.selectedOffer}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "events": [],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "6fstnkuykc",
+  "leftColumn": 6,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 43,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "originalBottomRow": 187,
+  "originalTopRow": 180,
+  "parentColumnSpace": 19.90625,
+  "parentId": "o01jrvcf0i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 57,
+  "srcDoc": {
+    "css": "@import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap\");\n.title-container {\n  position: relative;\n  text-align: center;\n  margin-top: 20px;\n}\n\n.line-container {\n  position: relative;\n  display: inline-block;\n  margin-bottom: 10px;\n}\n\n.background-bar {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 10%);\n  width: 100%;\n  height: 1em;\n  background-color: #E1F9B7;\n  z-index: 0;\n  border-radius: 4px;\n}\n\n.styled-title {\n  font-family: \"Poppins\", sans-serif;\n  font-size: 28px;\n  font-weight: bold;\n  color: #2C3034;\n  position: relative;\n  z-index: 1;\n  margin: 0;\n}\n\n.t--widget-custom5copy1copy {\n  position: sticky;\n}",
+    "html": "<body style=\"overflow: hidden;\">\n\t<div class=\"title-container\">\n  \t  <div class=\"line-container\">\n    \t    <div class=\"background-bar\"></div>\n      \t  <h1 class=\"styled-title\" id=\"text\">Votre offre </h1>\n    \t</div>\n\t</div>\n</body>",
+    "js": "function initApp() {\n  const index = document.getElementById(\"text\");\n  index.innerText = \"Votre offre \" + appsmith.model.partner.name;\n  updateDom();\n}\nappsmith.onReady(() => {\n  initApp();\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 0,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');\n\n.title-container {\n    position: relative;\n    text-align: center;\n\t  margin-top:20px\n}\n\n.line-container {\n    position: relative;\n    display: inline-block;\n    margin-bottom: 10px;\n}\n\n.background-bar {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, +10%);\n    width: 100%;\n    height: 1em;\n    background-color: #E1F9B7;\n    z-index: 0;\n    border-radius: 4px;\n}\n\n.styled-title {\n    font-family: 'Poppins', sans-serif;\n    font-size: 28px;\n    font-weight: bold;\n    color: #2C3034;\n    position: relative;\n    z-index: 1;\n    margin: 0;\n}\n\n.t--widget-custom5copy1copy {\n\tposition: sticky;\n}",
+    "html": "<body style=\"overflow: hidden;\">\n\t<div class=\"title-container\">\n  \t  <div class=\"line-container\">\n    \t    <div class=\"background-bar\"></div>\n      \t  <h1 class=\"styled-title\" id=\"text\">Votre offre </h1>\n    \t</div>\n\t</div>\n</body>",
+    "js": "function initApp() {\n\tconst index = document.getElementById(\"text\");\n\tindex.innerText = \"Votre offre \" +  appsmith.model.partner.name;\n\tupdateDom();\n}\nappsmith.onReady(() => {\n\tinitApp();\n});"
+  },
+  "version": 1,
+  "widgetId": "ngveavq0sl",
+  "widgetName": "Custom5Copy1Copy"
+}

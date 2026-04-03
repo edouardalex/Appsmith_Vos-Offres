@@ -1,0 +1,61 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "0px",
+  "borderWidth": "1",
+  "bottomRow": 246,
+  "boxShadow": "none",
+  "defaultModel": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "6fstnkuykc",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 170,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 140,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 245,
+  "originalTopRow": 216,
+  "parentColumnSpace": 19.90625,
+  "parentId": "l77vb1a4m5",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "",
+    "html": "<body style=\"overflow: hidden;\">\n\t<script src=\"https://static.elfsight.com/platform/platform.js\" async></script>\n\t<div style=\"margin-bottom: 10px;\" class=\"elfsight-app-63e06834-5e78-4f93-a69b-20557330a620\" data-elfsight-app-lazy></div>\n</body>",
+    "js": ""
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 217,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "",
+    "html": "<body style=\"overflow: hidden;\">\n\t<script src=\"https://static.elfsight.com/platform/platform.js\" async></script>\n\t<div style=\"margin-bottom: 10px;\" class=\"elfsight-app-63e06834-5e78-4f93-a69b-20557330a620\" data-elfsight-app-lazy></div>\n</body>",
+    "js": ""
+  },
+  "version": 1,
+  "widgetId": "qa5mjiuabj",
+  "widgetName": "GoogleReviewsCustomWidget"
+}

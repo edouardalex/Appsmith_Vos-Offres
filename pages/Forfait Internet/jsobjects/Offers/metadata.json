@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_e8aa2e2c-df38-4c74-b199-45c6940e6db6",
+  "id": "Forfait Internet_Offers",
+  "unpublishedCollection": {
+    "name": "Offers",
+    "pageId": "Forfait Internet",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "fetchData",
+        "value": "[]"
+      },
+      {
+        "name": "offers",
+        "value": "[]"
+      },
+      {
+        "name": "pricePayed",
+        "value": "0"
+      },
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "selectedPlan",
+        "value": "null"
+      }
+    ]
+  }
+}

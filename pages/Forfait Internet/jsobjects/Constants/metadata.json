@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_172bccb3-cf4b-46ed-bd9d-160e0405663d",
+  "id": "Forfait Internet_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "Forfait Internet",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "colors",
+        "value": "{\n  font: \"#596d7b\",\n  success: \"#5CBF86\",\n  failure: \"#E6007E\"\n}"
+      },
+      {
+        "name": "operatorsToHideMap",
+        "value": "{\n  \"sfr\": [\"sfr\", \"red_by_sfr\"],\n  \"red_by_sfr\": [\"sfr\", \"red_by_sfr\"],\n  \"sosh\": [\"sosh\", \"orange\"],\n  \"orange\": [\"sosh\", \"orange\"],\n  \"free\": [\"free\"],\n  \"bouygues_telecom\": [\"bouygues_telecom\"]\n}"
+      }
+    ]
+  }
+}
