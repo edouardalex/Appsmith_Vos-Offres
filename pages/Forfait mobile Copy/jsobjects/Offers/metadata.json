@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "6753170b470c7870d4338fa7_515b083d-f337-4681-ba25-ba2c5874f106",
+  "id": "Forfait mobile Copy_Offers",
+  "unpublishedCollection": {
+    "name": "Offers",
+    "pageId": "Forfait mobile Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "offers",
+        "value": "[]"
+      },
+      {
+        "name": "pricePayed",
+        "value": "0"
+      },
+      {
+        "name": "loading",
+        "value": "true"
+      },
+      {
+        "name": "selectedPlan",
+        "value": "null"
+      }
+    ]
+  }
+}

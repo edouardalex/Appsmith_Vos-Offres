@@ -1,0 +1,61 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "0px",
+  "borderWidth": "1",
+  "bottomRow": 578,
+  "boxShadow": "none",
+  "defaultModel": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "6fstnkuykc",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 170,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 140,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 78,
+  "originalTopRow": 39,
+  "parentColumnSpace": 19.90625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": "@charset \"UTF-8\";\n/* Importation de la police Poppins */\n@import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap\");\nbody, html {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  /* Application de la police au niveau global */\n  font-family: \"Poppins\", sans-serif;\n}\n\n#elfsight-wrapper {\n  width: 100%;\n  min-height: 100vh;\n  font-family: \"Poppins\", sans-serif;\n}\n\n/* Forçage pour le widget Elfsight au cas où il hériterait mal */\n#elfsight-wrapper * {\n  font-family: \"Poppins\", sans-serif !important;\n}",
+    "html": "<div id=\"elfsight-wrapper\">\n  <div class=\"elfsight-app-a0b47e7f-9e0b-41ba-851b-9fd8545aa148\"></div>\n</div>",
+    "js": "appsmith.onReady(() => {\n  const script = document.createElement(\"script\");\n  script.src = \"https://elfsightcdn.com/platform.js\";\n  script.async = true;\n  script.defer = true;\n  document.body.appendChild(script);\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 539,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "/* Importation de la police Poppins */\n@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');\n\nbody, html {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  /* Application de la police au niveau global */\n  font-family: 'Poppins', sans-serif;\n}\n\n#elfsight-wrapper {\n  width: 100%;\n  min-height: 100vh;\n  font-family: 'Poppins', sans-serif;\n}\n\n/* Forçage pour le widget Elfsight au cas où il hériterait mal */\n#elfsight-wrapper * {\n  font-family: 'Poppins', sans-serif !important;\n}",
+    "html": "<div id=\"elfsight-wrapper\">\n  <div class=\"elfsight-app-a0b47e7f-9e0b-41ba-851b-9fd8545aa148\"></div>\n</div>",
+    "js": "appsmith.onReady(() => {\n  const script = document.createElement(\"script\");\n  script.src = \"https://elfsightcdn.com/platform.js\";\n  script.async = true;\n  script.defer = true;\n  \n  document.body.appendChild(script);\n});"
+  },
+  "version": 1,
+  "widgetId": "sw2yxxfof1",
+  "widgetName": "GoogleReviewsCustomWidget"
+}

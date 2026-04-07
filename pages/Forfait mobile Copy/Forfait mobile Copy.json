@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "6753170b470c7870d4338fa7_4729d259-4445-44a3-8115-72fbdc5e24cc",
+  "gitSyncId": "6753170b470c7870d4338fa7_b6f81b6a-10be-4122-8c7e-ef06034466b5",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 840,
+          "bottomRow": 5130,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Forfait Internet",
-    "slug": "forfait-internet"
+    "name": "Forfait mobile Copy",
+    "slug": "forfait-mobile-copy"
   }
 }

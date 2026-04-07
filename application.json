@@ -80,6 +80,10 @@
     {
       "id": "confirmation auto",
       "isDefault": false
+    },
+    {
+      "id": "Forfait mobile Copy",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
